@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		2EF512171C32D0EC00C8EACD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF512161C32D0EC00C8EACD /* main.m */; };
 		2EF5121A1C32D0EC00C8EACD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF512191C32D0EC00C8EACD /* AppDelegate.m */; };
-		2EF5121D1C32D0EC00C8EACD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF5121C1C32D0EC00C8EACD /* ViewController.m */; };
+		2EF5121D1C32D0EC00C8EACD /* PlaylistMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF5121C1C32D0EC00C8EACD /* PlaylistMasterViewController.m */; };
 		2EF512201C32D0EC00C8EACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EF5121E1C32D0EC00C8EACD /* Main.storyboard */; };
 		2EF512221C32D0EC00C8EACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EF512211C32D0EC00C8EACD /* Assets.xcassets */; };
 		2EF512251C32D0EC00C8EACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EF512231C32D0EC00C8EACD /* LaunchScreen.storyboard */; };
 		2EF512301C32D0EC00C8EACD /* AlgorhythmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF5122F1C32D0EC00C8EACD /* AlgorhythmTests.m */; };
 		2EF5123B1C32D0EC00C8EACD /* AlgorhythmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF5123A1C32D0EC00C8EACD /* AlgorhythmUITests.m */; };
+		2EF5124A1C32D9D400C8EACD /* PlaylistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF512491C32D9D400C8EACD /* PlaylistDetailViewController.m */; };
+		2EF5124D1C330A8B00C8EACD /* MusicLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF5124C1C330A8B00C8EACD /* MusicLibrary.m */; };
+		2EF512501C3313BD00C8EACD /* Playlist.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF5124F1C3313BD00C8EACD /* Playlist.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,8 @@
 		2EF512161C32D0EC00C8EACD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2EF512181C32D0EC00C8EACD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2EF512191C32D0EC00C8EACD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2EF5121B1C32D0EC00C8EACD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2EF5121C1C32D0EC00C8EACD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2EF5121B1C32D0EC00C8EACD /* PlaylistMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaylistMasterViewController.h; sourceTree = "<group>"; };
+		2EF5121C1C32D0EC00C8EACD /* PlaylistMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaylistMasterViewController.m; sourceTree = "<group>"; };
 		2EF5121F1C32D0EC00C8EACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EF512211C32D0EC00C8EACD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EF512241C32D0EC00C8EACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,12 @@
 		2EF512361C32D0EC00C8EACD /* AlgorhythmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorhythmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EF5123A1C32D0EC00C8EACD /* AlgorhythmUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorhythmUITests.m; sourceTree = "<group>"; };
 		2EF5123C1C32D0EC00C8EACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EF512481C32D9D400C8EACD /* PlaylistDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistDetailViewController.h; sourceTree = "<group>"; };
+		2EF512491C32D9D400C8EACD /* PlaylistDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistDetailViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		2EF5124B1C330A8B00C8EACD /* MusicLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicLibrary.h; sourceTree = "<group>"; };
+		2EF5124C1C330A8B00C8EACD /* MusicLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicLibrary.m; sourceTree = "<group>"; };
+		2EF5124E1C3313BD00C8EACD /* Playlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Playlist.h; sourceTree = "<group>"; };
+		2EF5124F1C3313BD00C8EACD /* Playlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Playlist.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +112,14 @@
 			children = (
 				2EF512181C32D0EC00C8EACD /* AppDelegate.h */,
 				2EF512191C32D0EC00C8EACD /* AppDelegate.m */,
-				2EF5121B1C32D0EC00C8EACD /* ViewController.h */,
-				2EF5121C1C32D0EC00C8EACD /* ViewController.m */,
+				2EF5121B1C32D0EC00C8EACD /* PlaylistMasterViewController.h */,
+				2EF5121C1C32D0EC00C8EACD /* PlaylistMasterViewController.m */,
+				2EF512481C32D9D400C8EACD /* PlaylistDetailViewController.h */,
+				2EF512491C32D9D400C8EACD /* PlaylistDetailViewController.m */,
+				2EF5124B1C330A8B00C8EACD /* MusicLibrary.h */,
+				2EF5124C1C330A8B00C8EACD /* MusicLibrary.m */,
+				2EF5124E1C3313BD00C8EACD /* Playlist.h */,
+				2EF5124F1C3313BD00C8EACD /* Playlist.m */,
 				2EF5121E1C32D0EC00C8EACD /* Main.storyboard */,
 				2EF512211C32D0EC00C8EACD /* Assets.xcassets */,
 				2EF512231C32D0EC00C8EACD /* LaunchScreen.storyboard */,
@@ -270,9 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EF5121D1C32D0EC00C8EACD /* ViewController.m in Sources */,
+				2EF5121D1C32D0EC00C8EACD /* PlaylistMasterViewController.m in Sources */,
+				2EF512501C3313BD00C8EACD /* Playlist.m in Sources */,
+				2EF5124A1C32D9D400C8EACD /* PlaylistDetailViewController.m in Sources */,
 				2EF5121A1C32D0EC00C8EACD /* AppDelegate.m in Sources */,
 				2EF512171C32D0EC00C8EACD /* main.m in Sources */,
+				2EF5124D1C330A8B00C8EACD /* MusicLibrary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +514,7 @@
 				2EF512411C32D0ED00C8EACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EF512421C32D0ED00C8EACD /* Build configuration list for PBXNativeTarget "AlgorhythmTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +523,7 @@
 				2EF512441C32D0ED00C8EACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EF512451C32D0ED00C8EACD /* Build configuration list for PBXNativeTarget "AlgorhythmUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +532,7 @@
 				2EF512471C32D0ED00C8EACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

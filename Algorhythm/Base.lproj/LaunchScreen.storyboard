@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,8 +16,36 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OaS-yi-Akc">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
+                                <color key="backgroundColor" red="0.1803921568627451" green="0.20392156862745098" blue="0.22352941176470587" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="59l-HM-0ZY">
+                                <rect key="frame" x="0.0" y="300" width="600" height="300"/>
+                                <color key="backgroundColor" red="0.12549019607843137" green="0.14117647058823529" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch Icon" translatesAutoresizingMaskIntoConstraints="NO" id="sYc-R1-xYl">
+                                <rect key="frame" x="240" y="240" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="Fxw-pP-rsB"/>
+                                    <constraint firstAttribute="height" constant="120" id="IbY-X7-GhR"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="59l-HM-0ZY" firstAttribute="height" secondItem="OaS-yi-Akc" secondAttribute="height" id="AQx-eY-aOT"/>
+                            <constraint firstItem="sYc-R1-xYl" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="AUn-2C-jP6"/>
+                            <constraint firstAttribute="trailing" secondItem="59l-HM-0ZY" secondAttribute="trailing" id="Hef-zE-frr"/>
+                            <constraint firstItem="59l-HM-0ZY" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="OBK-IN-0OC"/>
+                            <constraint firstItem="sYc-R1-xYl" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="QJR-Xb-Dtr"/>
+                            <constraint firstItem="OaS-yi-Akc" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="SOt-CB-IN9"/>
+                            <constraint firstAttribute="trailing" secondItem="OaS-yi-Akc" secondAttribute="trailing" id="Tq5-5j-0m8"/>
+                            <constraint firstItem="OaS-yi-Akc" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="qGe-zf-H0J"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="59l-HM-0ZY" secondAttribute="bottom" id="vEe-Fh-WAJ"/>
+                            <constraint firstItem="59l-HM-0ZY" firstAttribute="top" secondItem="OaS-yi-Akc" secondAttribute="bottom" id="zrL-QO-IeE"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +53,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Launch Icon" width="120" height="120"/>
+    </resources>
 </document>
